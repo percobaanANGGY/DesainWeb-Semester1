@@ -1,0 +1,11 @@
+p{
+    color: green;
+    text-align: justify;
+}
+a{
+    color: red;
+}
+footer,header{
+    background-color: rgba(4, 0, 255, 0.506);
+    font-size: 25px;
+}
