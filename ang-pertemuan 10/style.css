@@ -1,0 +1,58 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10;
+    flex-direction: column;
+}
+
+.flex-container div{
+    background-color: rgb(95, 253, 4);
+    padding: 5px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery div{
+    flex: 1 1 calc(25%-10px);
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.header{
+    flex: 1 100%;
+    background-color: rgb(21, 93, 228);
+    padding: 20px;
+    text-align: center;
+}
+
+.home{
+    flex: 1 60%;
+    background-color: grey;
+    padding:  20px;
+    text-align: center                                               ;
+}
+
+.content{
+    flex: 2 60%;
+    background-color: blueviolet;
+    padding: 20%;
+    text-align: center;
+}
+
+.sidebar{
+    flex: 1 20%;
+    background-color: rgb(228, 228, 18);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer{
+    flex: 1 100%;
+    background-color: rgb(233, 17, 186);
+    padding: 20px;
+    text-align: center;
+}
