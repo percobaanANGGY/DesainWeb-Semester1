@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.container .header {
+  background-color: #3498db;
+  color: white;
+  padding: 15px;
+  height: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container .content {
+  flex: 1;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container .footer {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  height: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container .home{
+ text-shadow: black; color: black;
+}

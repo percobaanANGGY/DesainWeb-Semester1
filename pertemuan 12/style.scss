@@ -1,0 +1,45 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Arial', sans-serif;
+$padding: 20px;
+
+$header-height: 60px;
+$footer-height: 40px;
+$body-height: 100vh - $header-height - $footer-height;
+
+@mixin box-shadow($shadow-color) {
+  box-shadow: 0 4px 8px $shadow-color;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .header {
+    background-color: $primary-color;
+    color: white;
+    padding: $padding;
+    height: $header-height;
+    text-align: center;
+    @include box-shadow(rgba(0, 0, 0, 0.1));
+  }
+
+  .content {
+    flex: 1;
+    padding: $padding;
+    font-family: $font-stack;
+    background-color: $secondary-color;
+    color: white;
+    @include box-shadow(rgba(0, 0, 0, 0.1));
+  }
+
+  .footer {
+    background-color: $primary-color;
+    color: white;
+    padding: $padding;
+    height: $footer-height;
+    text-align: center;
+    @include box-shadow(rgba(0, 0, 0, 0.1));
+  }
+}
